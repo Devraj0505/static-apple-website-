@@ -1,0 +1,93 @@
+@font-face {
+  font-family: apple;
+  src: url(./SF\ Pro\ Display\ Regular.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: apple;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 700px;
+  width: 100%;
+  background-color: black;
+}
+#navbar {
+  background-color: rgb(26, 26, 26);
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 13px;
+}
+#nav {
+  color: white;
+}
+#main i {
+  color: white;
+}
+#navbar2 {
+  color: white;
+  background-color: rgb(33, 30, 30);
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+}
+#navbar2 a {
+  padding-left: 8px;
+  color: rgb(0, 110, 255);
+  font-size: 16px;
+  text-decoration: none;
+}
+#hero p {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 316px;
+  left: 42%;
+}
+#hero h2 {
+  font-size: 150px;
+  position: absolute;
+  padding: 50px 300px;
+}
+#Hbtn {
+  /* display: flex;
+  justify-content: center;
+  top: 450px;
+  align-items: center; */
+  position: absolute;
+  top: 365px;
+  left: 43%;
+}
+#Hbtn button {
+  background-color: rgba(13, 94, 216, 0.822);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 20px;
+  margin: 10px;
+}
+#image {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+#image img {
+  /* background-size: cover; */
+  height: 90%;
+  width: 110%;
+  background-position: bottom;
+  position: absolute;
+  bottom: 0%;
+  top: 10%;
+  /* left: 2%; */
+  background-color: black;
+  object-fit: cover;
+}
